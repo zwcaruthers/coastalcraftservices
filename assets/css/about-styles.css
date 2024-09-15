@@ -1,0 +1,28 @@
+.about-container {
+    text-align: center;
+    padding: 50px 20px; /* Padding for spacing around the content */
+}
+
+.photo-section {
+    margin-bottom: 30px; /* Space between the photo and the text section */
+}
+
+.about-photo {
+    width: 2000px; /* Adjust this to fit your preferred size */
+    height: 2000px; /* Adjust to your preferred size */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits within the circle */
+}
+
+.text-section h2 {
+    font-size: 15em; /* Title size */
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.text-section p {
+    font-size: 4em; /* Text size */
+    line-height: 1.6; /* Spacing between lines */
+    max-width: 95%; /* Limit the width of the text for readability */
+    margin: 0 auto; /* Center the text section */
+}

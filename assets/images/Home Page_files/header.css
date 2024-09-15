@@ -1,0 +1,70 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Branding: Business name and tagline */
+.branding {
+    display: flex;
+    flex-direction: column;
+}
+
+.branding h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Centered Logo */
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust as necessary */
+    width: auto;
+}
+
+/* Navigation links and social media icons */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav ul li img {
+    height: 24px;
+    width: 24px;
+}
