@@ -1,0 +1,1 @@
+This website strives to provide customers with an understanding as to what Coastal Craft Services can provide for them. While also a test to myself, @zwcaruthers, as to my website building capabilities.
